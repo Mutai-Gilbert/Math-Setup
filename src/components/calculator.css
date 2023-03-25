@@ -45,3 +45,8 @@
   background-color: rgb(245, 131, 1);
   color: #666;
 }
+
+.author {
+  font-weight: 700;
+  color: black;
+}

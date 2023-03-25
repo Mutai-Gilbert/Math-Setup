@@ -2,5 +2,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+}
+
+.quotesItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2em;
+  margin: 10vh;
+}
+
+.fitnessquote {
+  width: 50%;
+  padding: 15px;
+  background-color: bisque;
+  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
 }

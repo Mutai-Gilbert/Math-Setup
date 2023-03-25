@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Calculator from './components/calculator';
+import FetchTheQuote from './api/quotes';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,8 +11,15 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="calculator-wrap">
-        <Calculator />
+      <div className="quotesItems">
+        <div className="fitnessquote">
+          <FetchTheQuote />
+
+        </div>
+
+        <div className="calculator-wrap">
+          <Calculator />
+        </div>
       </div>
     );
   }
