@@ -36,7 +36,7 @@ const FetchTheQuote = () => {
   return (
     <div>
       {quoteResponse.map((quotes) => (
-        <div key={quotes.id}>
+        <div key={quotes.quote}>
           {quotes.quote}
           <em className="author">
             {quotes.author}
