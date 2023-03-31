@@ -50,3 +50,17 @@
   font-weight: 700;
   color: black;
 }
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 80%;
+  padding: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2), 0 2rem 2rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  background-color: #fff;
+}

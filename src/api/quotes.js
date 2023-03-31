@@ -34,7 +34,7 @@ const FetchTheQuote = () => {
   if (error) return <h1> Some error has occurred!</h1>;
 
   return (
-    <div>
+    <div className="quote">
       {quoteResponse.map((quotes) => (
         <div key={quotes.quote}>
           {quotes.quote}
