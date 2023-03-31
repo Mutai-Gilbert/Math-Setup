@@ -1,22 +1,68 @@
-.calculator-wrap {
+.allContent {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.quotesItems {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   gap: 2em;
-  margin: 10vh;
 }
 
-.fitnessquote {
-  width: 50%;
-  padding: 15px;
-  background-color: bisque;
-  box-shadow: rgba(60, 64, 67, 0.3) 0 1px 2px 0, rgba(60, 64, 67, 0.15) 0 2px 6px 2px;
+.navigation {
+  padding: 1em 3em;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.navigation li {
+  padding: 0 1em;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.navigation li:nth-child(2) {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.quote {
+  width: 40%;
+}
+
+.calculator-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2), 0 2rem 2rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  background-color: #fff;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+
+/* Home.css */
+.homeContent {
+  margin: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2), 0 2rem 2rem 0 rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.homeContent p {
+  margin: 1rem;
+  font-weight: bold;
 }
